@@ -87,6 +87,20 @@ main {
     margin-bottom: 0.7rem;
 }
 
+.player {
+    background: white;
+    border-radius: 10px;
+    padding: 1.5rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    flex: 1 1 300px;
+}
+
+.player-list {
+     display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
 footer {
     background-color: #0F2C59;
     color: white;
@@ -123,8 +137,8 @@ footer {
 .contact-form button {
     margin-top: 1rem;
     padding: 0.8rem 1.5rem;
-    background-color: #0F2C59;
-    color: white;
+    background-color: #FFC700;
+    color:  #0F2C59;
     border: none;
     border-radius: 6px;
     cursor: pointer;
@@ -133,4 +147,18 @@ footer {
 
 .contact-form button:hover {
     background-color: #0d244b;
+}
+
+.contact {
+     background: white;
+    border-radius: 10px;
+    padding: 1.5rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    flex: 1 1 300px;
+}
+
+.contact-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
 }
